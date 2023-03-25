@@ -51,7 +51,8 @@ def predict():
         im_arr = cv2.imencode('.jpg', RGB_img)[1]
         response = make_response(im_arr.tobytes())
         response.headers['Content-Type'] = 'image/jpeg'
-    return response
+    # return render_template("index.html", len = len(listOfKeys), listOfKeys = listOfKeys, responsed = response);
+    return response;
 
 def extract_img(request):
     # checking if image uploaded is valid

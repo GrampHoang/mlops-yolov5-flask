@@ -1,4 +1,4 @@
-Flask==1.1.2
+Flask==2.2.2
 
 pandas
 
@@ -8,7 +8,7 @@ matplotlib
 
 seaborn
 
-markupsafe==2.0.1
+markupsafe==2.1.2
 
 itsdangerous==2.0.1
 
@@ -17,3 +17,17 @@ werkzeug==2.0.3
 gitpython
 
 scipy
+
+opencv-python
+
+numpy
+
+Pillow
+
+matplotlib
+
+tqdm
+
+psutil
+
+pyyaml
