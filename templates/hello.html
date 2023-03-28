@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Classifier</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Image Classifier</h1>
+	<form>
+		<label for="image">Upload Image:</label><br>
+		<input type="file" id="image" name="image"><br>
+
+		<label for="model">Choose Model:</label><br>
+		<select id="model" name="model">
+			<option value="model1">Model 1</option>
+			<option value="model2">Model 2</option>
+			<option value="model3">Model 3</option>
+		</select><br>
+
+		<input type="submit" value="Classify Image">
+	</form>
+
+	<div class="result">
+		<h2>Result:</h2>
+		<img id="result-image" src="" alt="Result Image">
+		<a id="download" href="" download>Download Text</a>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
